@@ -1,0 +1,18 @@
+indexes:
+
+- kind: GameState
+  properties:
+  - name: PlayerId
+  - name: CurrentLevel
+    direction: desc
+  - name: RecordCreatedAt
+    direction: desc
+  - name: GameId
+  - name: Health
+  - name: Inventory
+  - name: RecordId
+
+#- kind: GameState
+#  properties:
+#  - name: PlayerId
+#  - name: CurrentLevel
